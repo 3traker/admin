@@ -29,7 +29,7 @@ class Images extends Image
 			$value = [];
 		}
 		Request::merge([$name => $value]);
-		parent::save();
+		//parent::save();
 	}
 
 	public function value()
